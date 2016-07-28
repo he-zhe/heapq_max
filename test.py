@@ -1,3 +1,10 @@
+"""
+These test cases only test heappop_max, heappush_max, heappushpop_max. The
+other functions are directly imported from heapq module, which are tested in
+https://github.com/python/cpython/blob/master/Lib/test/test_heapq.py
+"""
+
+
 import random
 import unittest
 from unittest import TestCase
