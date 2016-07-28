@@ -7,6 +7,18 @@ Description
 A maxHeap version of heapq module for Python. Similar to heapq, c
 implementation is used when available to ensure performance.
 
+Dependencies
+------------
+
+Python >=3 Python 2 support will be implemented by 8/15/2016.
+
+Installation
+------------
+
+::
+
+    pip install heapq_max
+
 Usage
 -----
 
@@ -14,7 +26,7 @@ tl;dr: same as heapq module except adding '\_max' to all functions.
 
 ::
 
-    import heapq_max
+    from heapq_max import *
 
     heap_max = []                           # creates an empty heap
     heappush_max(heap_max, item)            # pushes a new item on the heap
