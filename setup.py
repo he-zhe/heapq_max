@@ -1,14 +1,22 @@
 from distutils.core import setup
 
+with open('README.rst') as file:
+    long_description = file.read()
+
+with open('LICENSE.txt') as file:
+    license = file.read()
+
 setup(
     name='heapq_max',
     packages=['heapq_max'],
-    version='0.11',
+    version='0.2',
     description='A max Heap version of heapq module for Python.',
     author='Zhe He',
     author_email='hezhe88@gmail.com',
     url='https://github.com/he-zhe/heapq_max',
-    download_url='https://github.com/he-zhe/heapq_max/archive/0.11.tar.gz',
+    download_url='https://github.com/he-zhe/heapq_max/archive/0.2.tar.gz',
     keywords=['heap', 'heapq', 'max heap'],
     classifiers=[],
+    long_description=long_description,
+    license=license
 )

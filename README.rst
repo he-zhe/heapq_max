@@ -10,7 +10,7 @@ implementation is used when available to ensure performance.
 Dependencies
 ------------
 
-Python >=3 Python 2 support will be implemented by 8/15/2016.
+Python 2 or 3
 
 Installation
 ------------
@@ -40,3 +40,12 @@ License
 -------
 
 MIT
+
+History
+-------
+
+0.2
+'''
+
+Add Python 2 support ##### 0.1 & 0.11 First version, only supports
+Python 3
