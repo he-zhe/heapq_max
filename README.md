@@ -9,6 +9,8 @@ A maxHeap version of heapq module for Python. Similar to heapq, c implementation
 ## Usage
 tl;dr: same as heapq module except adding '_max' to all functions.
 ```
+import heapq_max
+
 heap_max = []                           # creates an empty heap
 heappush_max(heap_max, item)            # pushes a new item on the heap
 item = heappop_max(heap_max)            # pops the largest item from the heap
