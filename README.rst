@@ -17,7 +17,7 @@ Installation
 
 ::
 
-    pip install heapq_max
+    pip install --upgrade heapq_max
 
 Usage
 -----

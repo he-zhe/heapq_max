@@ -10,7 +10,7 @@ Python 2 or 3
 
 ## Installation
 ```
-pip install heapq_max
+pip install --upgrade heapq_max
 ```
 
 ## Usage
