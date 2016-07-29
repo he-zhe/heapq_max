@@ -43,9 +43,18 @@ MIT
 
 History
 -------
+0.21
+''''
+
+Small fix of download URL&README
 
 0.2
 '''
 
-Add Python 2 support ##### 0.1 & 0.11 First version, only supports
-Python 3
+Add Python 2 support
+
+
+0.1 & 0.11
+'''''''''''
+
+First version, only supports Python 3

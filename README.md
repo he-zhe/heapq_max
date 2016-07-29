@@ -31,6 +31,8 @@ item = heapreplace_max(heap_max, item)  # pops and returns largest item, and
 MIT
 
 ## History
+##### 0.21
+Small fix of download URL&README
 ##### 0.2
 Add Python 2 support
 ##### 0.1 & 0.11
